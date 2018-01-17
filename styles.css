@@ -1,11 +1,12 @@
 .signup-form {
   background-color: #efefef;
   width: 50%;
-  display: flex;
+  display: block;
 }
 
 .signup-form form {
-  padding: 20px 10px
+  padding: 20px 10px;
+  display: flex;
 }
 
 .signup-form input[type=text], select {
@@ -13,7 +14,6 @@
   border-bottom: 2px solid darkgrey;
   background-color: inherit;
   width: 100%;
-  margin: none;
 }
 
 .signup-form input[type=text]:focus, select:focus {
@@ -22,6 +22,8 @@
 
 .form-group {
   text-align: center;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .form-group .line {
