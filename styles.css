@@ -9,4 +9,9 @@
 
 .signup-form input[type=text] {
   border: none;
+  background-color: inherit;
+}
+
+.signup-form input[type=text]:focus {
+  outline: none;
 }
