@@ -1,0 +1,12 @@
+.signup-form {
+  background-color: #efefef;
+  width: 50%;
+}
+
+.signup-form form {
+  padding: 10px 10px
+}
+
+.signup-form input[type=text] {
+  border: none;
+}
